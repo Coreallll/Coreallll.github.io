@@ -1,0 +1,12 @@
+// базовые подключения
+@import "mixins";
+@import "vars";
+@import "settings";
+
+// большие компоненты
+@import "./components/order";
+@import "./components/form";
+//@import "./components/table";
+//@import "./components/form";
+//@import "./components/gallery";
+

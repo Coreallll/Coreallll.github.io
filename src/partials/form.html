@@ -1,0 +1,70 @@
+<form action="/" class="box form" novalidate>
+  <div class="payment-switch">
+    <h2 class="checkbox-title">Варианты оплаты</h2>
+    <label class="label-checkbox">
+      <input type="checkbox" checked class="checkbox visually-hidden">
+      <span class="input-checkbox"></span>
+    </label>
+  </div>
+  <div class="payment">
+    <h2 class="payment__title">Выберите вариант оплаты</h2>
+    <ul class="list-reset cards">
+      <li class="cards-item">
+        <span class="cards-descr consult">Оставить заявку на&nbsp;консультацию</span>
+      </li>
+      <li class="cards-item">
+        <span class="cards-descr">Оплатить всю сумму со&nbsp;скидкой 7000&nbsp;₽</span>
+        <div class="logo-group">
+          <img class="bank-img" src="./img/visa.svg" alt="">
+          <img class="bank-img" src="./img/mir.svg" alt="">
+          <img class="bank-img" src="./img/mc.svg" alt="">
+        </div>
+      </li>
+      <li class="cards-item">
+        <span class="cards-descr">В&nbsp;рассрочку в&nbsp;Покупай со&nbsp;Сбером</span>
+        <div class="logo-group">
+          <img class="logo-payment" src="./img/sber.svg" alt="">
+        </div>
+      </li>
+      <li class="cards-item">
+        <span class="cards-descr">В&nbsp;рассрочку<br>в&nbsp;Тинькофф</span>
+        <div class="logo-group">
+          <img class="logo-payment" src="./img/tinkoff.svg" alt="">
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="callback">
+    <h2 class="callback__title">Заполните контактные данные</h2>
+    <div class="callback__block">
+      <div class="input-field">
+        <label class="callback__item">
+          <input class="input-reset input input-name" type="text" name="name" placeholder=" ">
+          <span class="label-name">Имя</span>
+        </label>
+        <span class="error error-name"></span>
+      </div>
+      <div class="input-field">
+        <label class="callback__item">
+          <input class="input-reset input input-phone" type="tel" name="phone" placeholder=" ">
+          <span class="label-name">Телефон</span>
+        </label>
+        <span class="error error-phone"></span>
+      </div>
+      <div class="input-field">
+        <label class="callback__item">
+          <input class="input-reset input input-email" type="email" name="email" placeholder=" ">
+          <span class="label-name">Электронная почта</span>
+        </label>
+        <span class="error error-email"></span>
+      </div>
+    </div>
+  </div>
+  <button type="submit" class="btn-reset form__btn">Отправить</button>
+  <p class="privacy">
+    Нажимая на&nbsp;кнопку, я&nbsp;соглашаюсь на&nbsp;<a href="https://skillbox.ru/privacy_policy.pdf">обработку
+    персональных данных</a> и&nbsp;<a href="https://skillbox.ru/terms_of_use.pdf">с&nbsp;правилами пользования
+    Платформой</a>
+  </p>
+</form>
